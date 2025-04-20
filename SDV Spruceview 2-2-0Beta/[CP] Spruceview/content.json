@@ -1,0 +1,54 @@
+{
+   "Format": "2.5.0",
+   "Changes": [
+      {
+         "Action": "EditData",
+         "Target": "Data/Locations",
+         "Entries": {
+            "Custom_Spruceview_Village": {
+              "CreateOnLoad": {
+                  "MapPath": "Maps/Custom_Spruceview_Village"
+              }
+            },
+              "Custom_Sumi_House": {
+              "CreateOnLoad": {
+                  "MapPath": "Maps/Custom_Sumi_House"
+              }
+            }
+         }
+      },
+      {
+         "Action": "Load",
+         "Target": "Maps/Custom_Spruceview_Village",
+         "FromFile": "assets/Spruceview.tmx"
+      },
+      {
+         "Action": "Load",
+         "Target": "Maps/Custom_Sumi_House",
+         "FromFile": "assets/SumiHouse.tmx"
+      },
+      {
+         "Action": "EditData",
+         "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+         "Entries": {
+             "mletzk.Spruceview": {
+                 "Id": "mletzk.Spruceview_Village",
+                 "DisplayName": "{{i18n: warp-sections.Spruceview}}"
+             }
+         }
+     },
+     {
+         "Action": "EditData",
+         "Target": "Mods/CJBok.CheatsMenu/Warps",
+         "Entries": {
+            "mletzk.Spruceview_Village_Highway": {
+              "Id": "mletzk.Spruceview_Village_Highway",
+              "SectionId": "mletzk.Spruceview_Village",
+              "DisplayName": "{{i18n: warps.Village}}",
+              "Location": "Custom_Spruceview_Village",
+              "Tile": "23, 21"
+          }
+      }
+      } 
+   ]
+}

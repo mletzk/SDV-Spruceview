@@ -1,0 +1,31 @@
+{
+  "Name": "Spruceview Village 2.2.0 Alpha",
+  "Author": "mletzk",
+  "Version": "2.2.0-alpha",
+  "Description": "Adds a small new village.",
+  "UniqueID": "mletzk.Spruceview",
+  "MinimumApiVersion": "4.0.1",
+  "UpdateKeys": [ "Nexus:26096" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Lumisteria.LumiTilesheetsIndoor",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Lumisteria.TtilesheetsOutdoor",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "DaisyNiko.Tilesheets",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "hxw.tilesheets",
+      "IsRequired": true
+    }
+  ]
+}
+

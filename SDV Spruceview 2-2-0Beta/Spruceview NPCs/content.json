@@ -1,0 +1,75 @@
+{
+  "Format": "2.5.0",
+  "Changes": [
+      {
+          "Action": "Load",
+          "Target": "Characters/Sumi",
+          "FromFile": "assets/Sumi/sprites.png"
+      },
+      {
+          "Action": "Load",
+          "Target": "Portraits/Sumi",
+          "FromFile": "assets/Sumi/portraits.png"
+      },
+      {
+          "Action": "Load",
+          "Target": "Characters/Dialogue/Sumi",
+          "FromFile": "assets/Sumi/dialogue.json"
+      },
+      {
+          "Action": "Load",
+          "Target": "Characters/Dialogue/MarriageDialogue/Sumi",
+          "FromFile": "assets/Sumi/marriageDialogue.json"
+      },
+      {
+          "Action": "Load",
+          "Target": "Characters/schedules/Sumi",
+          "FromFile": "assets/Sumi/schedule.json"
+      },
+      {
+          "Action": "EditData",
+          "Target": "Data/Characters",
+          "Entries": {
+              "Sumi": {
+                  "DisplayName": "{{i18n:Name.Sumi}}",
+                  "BirthSeason": "Spring",
+                  "BirthDay": 3,
+                  "HomeRegion": "Town",
+                  "Gender": "Female",
+                  "Age": "Teen",
+                  "Manner": "Polite",
+                  "SocialAnxiety": "Outgoing",
+                  "Optimism": "Positive",
+
+                  "CanBeRomanced": true,
+
+                  "Home": [
+                      {
+                          "Id": "Default",
+                          "Location": "Custom_Spruceview_Village",
+                          "Tile": {
+                          "X": 6,
+                          "Y": 15
+                          }
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "Action": "EditData",
+          "Target": "Data/NPCGiftTastes",
+          "Entries": {
+              "Sumi": "You're giving this to me? This is amazing!/207 232 233 400/Thank you! This is a very nice gift./-5 -79 422/...What is this?/80 330/This is disgusting./2/That was very thoughtful of you./-4/ "
+          }
+      },
+      {
+          "Action": "EditData",
+          "Target": "Data/EngagementDialogue",
+          "Entries": {
+              "Sumi0": "{{i18n:Sumi.Dialogue.Sumi0",
+              "Sumi1": "{{i18n:Sumi.Dialogue.Sumi1}}"
+          }
+      }
+  ]
+}

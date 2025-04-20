@@ -1,0 +1,18 @@
+{
+  "Name": "Spruceview NPCs",
+  "Author": "MLETZK",
+  "Version": "2.2.0-beta",
+  "Description": "Adds the NPCs of Spruceview Village",
+  "UniqueID": "mletzk.sumi",
+  "MinimumApiVersion": "4.0.1",
+  "UpdateKeys": [ "Nexus:26096" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "mletzk.Spruceview",
+      "IsRequired": true
+    }
+  ]
+}

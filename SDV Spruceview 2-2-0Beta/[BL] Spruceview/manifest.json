@@ -1,0 +1,18 @@
+{
+   "Name": "[BL] Spruceview",
+   "Author": "mletzk",
+   "Version": "2.2.0-alpha",
+   "Description": "SDV Spruceview BusLocations",
+   "UniqueID": "mletzk.svbus",
+   "MinimumApiVersion": "4.0.1",
+   "UpdateKeys": ["Nexus:26096"],
+   "ContentPackFor": {
+      "UniqueID": "hootless.BusLocations"
+   },
+   "Dependencies": [
+    {
+      "UniqueID": "mletzk.Spruceview",
+      "IsRequired": true
+    }
+  ]
+}
