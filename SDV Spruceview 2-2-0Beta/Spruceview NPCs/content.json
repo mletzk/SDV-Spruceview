@@ -67,7 +67,7 @@
           "Action": "EditData",
           "Target": "Data/EngagementDialogue",
           "Entries": {
-              "Sumi0": "{{i18n:Sumi.Dialogue.Sumi0",
+              "Sumi0": "{{i18n:Sumi.Dialogue.Sumi0}}",
               "Sumi1": "{{i18n:Sumi.Dialogue.Sumi1}}"
           }
       }
