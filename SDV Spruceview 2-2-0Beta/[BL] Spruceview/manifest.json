@@ -1,7 +1,7 @@
 {
    "Name": "[BL] Spruceview",
    "Author": "mletzk",
-   "Version": "2.2.1-alpha",
+   "Version": "2.2.1-beta",
    "Description": "SDV Spruceview BusLocations",
    "UniqueID": "mletzk.svbus",
    "MinimumApiVersion": "4.0.1",
