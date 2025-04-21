@@ -14,12 +14,12 @@
       {
           "Action": "Load",
           "Target": "Characters/Dialogue/Sumi",
-          "FromFile": "assets/Sumi/dialogue.json"
+          "FromFile": "assets/Sumi/Dialogue.json"
       },
       {
           "Action": "Load",
           "Target": "Characters/Dialogue/MarriageDialogue/Sumi",
-          "FromFile": "assets/Sumi/marriageDialogue.json"
+          "FromFile": "assets/Sumi/MarriageDialogue.json"
       },
       {
           "Action": "Load",
