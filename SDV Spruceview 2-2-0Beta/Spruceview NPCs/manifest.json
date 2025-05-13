@@ -1,8 +1,8 @@
 {
-  "Name": "Spruceview NPCs",
+  "Name": "Spruceview NPCs Lite",
   "Author": "MLETZK",
-  "Version": "2.2.1-beta",
-  "Description": "Adds the NPCs of Spruceview Village",
+  "Version": "2.2.2-beta",
+  "Description": "Adds the NPCs of Spruceview Village. This is the lite version which does not include i18n support.",
   "UniqueID": "mletzk.sumi",
   "MinimumApiVersion": "4.0.1",
   "UpdateKeys": [ "Nexus:26096" ],
