@@ -31,7 +31,7 @@
           "Target": "Data/Characters",
           "Entries": {
               "Sumi": {
-                  "DisplayName": "{{i18n:Name.Sumi}}",
+                  "DisplayName": "Sumi",
                   "BirthSeason": "Spring",
                   "BirthDay": 3,
                   "HomeRegion": "Town",
@@ -67,8 +67,8 @@
           "Action": "EditData",
           "Target": "Data/EngagementDialogue",
           "Entries": {
-              "Sumi0": "{{i18n:Sumi.Dialogue.Sumi0}}",
-              "Sumi1": "{{i18n:Sumi.Dialogue.Sumi1}}"
+              "Sumi0": "I can't believe we're about to get married!$h",
+              "Sumi1": "I hope I don't get cold feet"
           }
       }
   ]
