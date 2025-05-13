@@ -33,7 +33,7 @@
          "Entries": {
              "mletzk.Spruceview": {
                  "Id": "mletzk.Spruceview_Village",
-                 "DisplayName": "{{i18n: warp-sections.Spruceview}}"
+                 "DisplayName": "Spruceview Village"
              }
          }
      },
@@ -44,7 +44,7 @@
             "mletzk.Spruceview_Village_Highway": {
               "Id": "mletzk.Spruceview_Village_Highway",
               "SectionId": "mletzk.Spruceview_Village",
-              "DisplayName": "{{i18n: warps.Village}}",
+              "DisplayName": "Spruceview",
               "Location": "Custom_Spruceview_Village",
               "Tile": "23, 21"
           }
