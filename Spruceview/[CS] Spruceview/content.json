@@ -1,11 +1,16 @@
 {
-	"Action": "EditData",
-	"target": "Mods/Pathoschild.CentralStation/Stops",
-	"Entries": {
-		"{{ModId}}_SpruceviewVillage": {
-			"DisplayName": "Spruceview Village",
-			"ToLocation": "Custom_Spruceview_Village",
-			"Network": "Bus"
+	"Format": "2.5.0",
+   	"Changes": [
+		{
+			"Action": "EditData",
+			"target": "Mods/Pathoschild.CentralStation/Stops",
+			"Entries": {
+				"{{ModId}}_SpruceviewVillage": {
+					"DisplayName": "Spruceview Village",
+					"ToLocation": "Custom_Spruceview_Village",
+					"Network": "Bus"
+				}
+			}
 		}
-	}
+	]
 }

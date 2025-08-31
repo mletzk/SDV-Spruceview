@@ -1,17 +1,21 @@
 {
    "Name": "[CS] Spruceview",
    "Author": "mletzk",
-   "Version": "3.0.0",
+   "Version": "3.0.1",
    "Description": "SDV Spruceview Central Station integration. Formerly BusLocations integration.",
    "UniqueID": "mletzk.svbus",
    "MinimumApiVersion": "4.0.1",
    "UpdateKeys": ["Nexus:26096"],
    "ContentPackFor": {
-      "UniqueID": "Pathoschild.CentralStation"
+      "UniqueID": "Pathoschild.ContentPatcher"
    },
    "Dependencies": [
     {
       "UniqueID": "mletzk.Spruceview",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Pathoschild.CentralStation",
       "IsRequired": true
     }
   ]

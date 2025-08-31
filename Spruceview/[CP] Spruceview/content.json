@@ -49,6 +49,17 @@
               "Tile": "23, 21"
             }
          }
-      }
+      },
+      {
+			"Action": "EditData",
+			"target": "Mods/Pathoschild.CentralStation/Stops",
+			"Entries": {
+				"{{ModId}}_SpruceviewVillage": {
+					"DisplayName": "Spruceview Village",
+					"ToLocation": "Custom_Spruceview_Village",
+					"Network": "Bus"
+				}
+			}
+		}
    ]
 }
