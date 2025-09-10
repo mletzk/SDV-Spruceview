@@ -1,5 +1,5 @@
 {
-   "Format": "2.5.0",
+   "Format": "2.7.0",
    "Changes": [
       {
          "Action": "EditData",
@@ -54,12 +54,22 @@
 			"Action": "EditData",
 			"target": "Mods/Pathoschild.CentralStation/Stops",
 			"Entries": {
-				"{{ModId}}_SpruceviewVillage": {
+				"mletzk.Spruceview_SpruceviewVillage": {
 					"DisplayName": "Spruceview Village",
 					"ToLocation": "Custom_Spruceview_Village",
 					"Network": "Bus"
 				}
 			}
-		}
+		},
+      {
+         "Action": "EditData",
+         "Target": "Mods/Pathoschild.CentralStation/Bookshelf",
+         "Entries": {
+            "mletzk.Spruceview": [
+               "'Undercover Family Vol 1.'.",
+               "'Undercover Family Vol 2.', the second volume of the popular novel."
+            ]
+         }
+      }
    ]
 }
